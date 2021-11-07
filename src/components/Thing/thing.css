@@ -1,0 +1,33 @@
+.thing-img{
+    background-image: url('../../images/featured3.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow:inset 0 0 0 1000px rgba(0,0,0,0.4);
+    /*text-align: center;*/
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+    
+}
+.thing-img h1{
+    color: #fff;
+    font-size: 3rem;
+    /*margin-top: 2rem;*/
+}
+.thing-img p{
+    color: #fff;
+    font-size:2rem ;
+    font-weight: 600;
+}
+.thing-img button{
+    background-color: yellow;
+    color: black;
+}
+.thing-img button:hover{
+    background-color: #e31837;
+    color: #fff;
+}
